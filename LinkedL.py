@@ -4,7 +4,7 @@ class Node:  # Train car
         self.next = None  # Pointer to the next car
 
 class LinkedList:  # Train system
-    def __init__(self):
+    def __init__(self,head=None):
         self.head = None  # Start with no train cars
 
     def insert(self, data):
